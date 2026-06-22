@@ -1,6 +1,6 @@
 # Sentiment Analysis Web App
 
-A web application that performs sentiment analysis using a Hugging Face transformer model. Built with Flask, HTML, Tailwind CSS, and JavaScript.
+A web application that performs sentiment analysis using a Hugging Face transformer model. Built with Python, Flask, HTML, Tailwind CSS, and JavaScript.
 
 ## Setup
 
