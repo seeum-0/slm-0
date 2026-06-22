@@ -17,9 +17,7 @@ Double-click "setup.bat"
 
 ### 3. Run the project
 
-Double-click:
-
-run.bat
+Double-click "run.bat"
 
 ### 4. Open in browser
 
