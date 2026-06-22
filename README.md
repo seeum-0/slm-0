@@ -11,7 +11,7 @@ git clone https://github.com/your-username/slm-project.git
 cd slm-project
 ```
 
-### 2. One-time setup (IMPORTANT)
+### 2. One time setup
 
 Double-click "setup.bat"
 
