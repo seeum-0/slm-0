@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/output.css') }}"
+    />
+    <title>Sentiment</title>
+  </head>
+  <body
+    class="flex flex-col items-center justify-center h-screen bg-gray-900 border-none"
+  >
+    <div
+      class="flex flex-col justify-center items-center gap-5 bg-gray-600 p-5 rounded-2xl border-none"
+    >
+      <input
+        id="textInput"
+        class="border p-2 w-100 rounded-2xl bg-gray-400 border-none outline-none"
+        placeholder="Enter text..."
+      />
+      <button
+        onclick="sendText()"
+        class="bg-gray-500 text-white p-2 w-fit rounded-2xl cursor-pointer"
+      >
+        Analyze Sentiment
+      </button>
+      <p id="output"></p>
+      <script src="/static/js/script.js"></script>
+    </div>
+  </body>
+</html>
